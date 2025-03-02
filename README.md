@@ -1,4 +1,4 @@
-Warehouse Robot Simulation
+# Warehouse Robot Simulation
 
 This project is a C++ based simulation of warehouse robots performing product delivery tasks within a grid-based warehouse environment. It utilizes SDL2 for graphics rendering to visualize the robots, products, obstacles, and pathfinding algorithms in action. The simulation supports pathfinding using both Breadth-First Search (BFS) and A* algorithms, obstacle generation and clearing, and dynamic robot collision avoidance.
 
@@ -13,24 +13,23 @@ Ensure you have the following installed:
 
 ## Project Structure
 
-*   `main.cc`: Main C++ source file.
+*   `warehouse.cc`: Main C++ source file.
 *   `Makefile`: Build the project.
-*   `src/`: Source code directory.
+*   `src/`
     *   `include/`: Header files.
-    *   `lib/`: SDL related
 
 ### Installation
 1. Clone the repository:
     ```bash
-    git clone git@github.com:Luke23-45/Colorfull-Ball-with-Particle-Effect-Animation.git
+    git clone git@github.com:Luke23-45/Simulation-of-warehouse-working-robots-with-SDL2.git
     ```
 ## Building
 
 This project uses `make` for building. To build the project, run the following command in your terminal:
 
-2. Navigate to the project directory:
+1. Navigate to the project directory:
     ```bash
-    cd Colorfull-Ball-with-Particle-Effect-Animation
+    cd Simulation-of-warehouse-working-robots-with-SDL2
     ```
 3. Compile the code:
     ```bash
@@ -38,7 +37,7 @@ This project uses `make` for building. To build the project, run the following c
     ```
 4. Run the executable:
     ```bash
-    ./Colorfull-Ball-with-Particle-Effect-Animation
+    ./main
 
     ```
 5. In window:
@@ -79,7 +78,7 @@ This project uses `make` for building. To build the project, run the following c
 ## Code Structure
 The project is structured as follows:
 
-- **`main.cc`**: Contains the main function and program loop, SDL initialization and destruction, event handling, game logic updates, and rendering functions.
+- **`warehouse.cc`**: Contains the main function and program loop, SDL initialization and destruction, event handling, game logic updates, and rendering functions.
 - **Structures**: Defines key data structures:
     - `Point`: Represents grid coordinates.
     - `Product`: Stores information about products, including location and delivery status.
