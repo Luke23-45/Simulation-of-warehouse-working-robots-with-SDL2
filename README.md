@@ -101,7 +101,7 @@ The project is structured as follows:
 - **Pathfinding Algorithms**: Implements `findPath` (BFS) and `findPathA` (A*) for path calculation. These algorithms search for the shortest path from a robot's starting position to its destination, considering warehouse obstacles and, optionally, other robots to avoid collisions.
 
 ## Demo Video
-Check out the project demo video on YouTube: [Project Demo Video](https://www.youtube.com/watch?v=McOcbGHyAWA)
+Check out the project demo video on YouTube: https://youtu.be/HDTzYFRzg50
 ## License
 
 This project is licensed under the MIT License. Feel free to use, modify, and distribute the code.
